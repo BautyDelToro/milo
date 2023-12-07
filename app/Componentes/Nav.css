@@ -1,0 +1,18 @@
+.navLista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 5px;
+    list-style-type: none;  /* le saca el cosito al item de lista simpre va en el elemento padre */
+}
+
+.navItem{
+    background-color: rgb(125, 193, 128);
+}
+
+.navItem:hover{
+    background-color: rgb(194, 234, 196);
+}
+nav{
+    background-color: rgb(39, 71, 35)
+}
