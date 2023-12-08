@@ -3,7 +3,11 @@ import './contacto.css'
 export default function Contacto(){
     return(
         <>
-        <form name='contacto' hidden data-netlify="true"  netlify-honeypot="bot-field">
+        <form 
+            action='./contacto/gracias'
+            name='contacto' 
+            hidden data-netlify="true"  
+            netlify-honeypot="bot-field"> {/*esto de aca es necesario, cosas de netlify*/}
             <input type="text" name='nombre'/>
             <input type="email" name="mail"/>
             <textarea name="comentarios"></textarea>
