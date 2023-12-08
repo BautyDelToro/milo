@@ -1,0 +1,6 @@
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 255, 247);
+    color: black;
+}
